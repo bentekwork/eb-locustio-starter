@@ -1,5 +1,7 @@
-# AWS Elastic Beanstalk Load Generator Example
-This sample application uses the [Locust](http://locust.io/) open source load testing tool to create a simple load generator for your applications. The sample test definition *[locustfile.py](locustfile.py)* tests the root of an endpoint passed in as an environment variable *(TARGET_URL)*. For more information on the format of the test definition file, see [Writing a locustfile](http://docs.locust.io/en/latest/writing-a-locustfile.html).
+# AWS Elastic Beanstalk Load Generator Starter
+This starter application uses the [Locust](http://locust.io/) open source load testing tool to create a simple load generator for your applications. The sample test definition *[locustfile.py](locustfile.py)* tests the root of an endpoint passed in as an environment variable *(TARGET_URL)*. For more information on the format of the test definition file, see [Writing a locustfile](http://docs.locust.io/en/latest/writing-a-locustfile.html).
+
+If or when you change this file for deployment to the Elastic Beanstalk instance, it is imperative that you do NOT commit it back into your repo. Test files will often have information (test user accounts, etc...) that should not be public knowledge. At this point in time, this repo isn't locked. Also, please be sure to fork from this repo for each test you're going to do. Thanks!
 
 You can get started using the following steps:
   1. [Install the AWS Elastic Beanstalk Command Line Interface (CLI)](http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/eb-cli3-install.html).
